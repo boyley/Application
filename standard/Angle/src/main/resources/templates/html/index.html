@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="angle">
+<head>
+    <meta charset="UTF-8">
+    <title data-ng-bind="::pageTitle()">Angle - Angular Bootstrap Admin Template</title>
+    <link rel="stylesheet" href="css/bootstrap.css" data-ng-if="!app.layout.isRTL">
+    <link rel="stylesheet" href="css/bootstrap-rtl.css" data-ng-if="app.layout.isRTL">
+    <!-- Application styles-->
+    <link rel="stylesheet" href="css/app.css" data-ng-if="!app.layout.isRTL">
+    <link rel="stylesheet" href="css/app-rtl.css" data-ng-if="app.layout.isRTL">
+    <!-- Themes-->
+    <link rel="stylesheet" ng-href="{{app.layout.theme}}" data-ng-if="app.layout.theme">
+</head>
+<body data-ng-class="{ 'layout-fixed' : app.layout.isFixed, 'aside-collapsed' : app.layout.isCollapsed, 'layout-boxed' : app.layout.isBoxed, 'layout-fs': app.useFullLayout, 'hidden-footer': app.hiddenFooter, 'layout-h': app.layout.horizontal, 'aside-float': app.layout.isFloat, 'offsidebar-open': app.offsidebarOpen, 'aside-toggled': app.asideToggled, 'aside-collapsed-text': app.layout.isCollapsedText}">
+<div data-preloader></div>
+<div data-ui-view="" data-autoscroll="false" class="wrapper">xxxx</div>
+
+<script type="application/javascript" src="webjars/jQuery/1.12.4/dist/jquery.js"></script>
+<script type="application/javascript" src="webjars/angular/1.5.8/angular.js"></script>
+<script type="application/javascript" src="webjars/angular-route/1.5.8/angular-route.js"></script>
+<script type="application/javascript" src="webjars/angular-cookies/1.5.8/angular-cookies.js"></script>
+<script type="application/javascript" src="webjars/angular-animate/1.5.8/angular-animate.js"></script>
+<script type="application/javascript" src="webjars/angular-touch/1.5.8/angular-touch.js"></script>
+<script type="application/javascript" src="webjars/angular-ui-router/0.3.2/release/angular-ui-router.js"></script>
+<script type="application/javascript" src="webjars/ngstorage/0.3.11/ngStorage.js"></script>
+<script type="application/javascript" src="webjars/angular-ui-mask/1.8.7/dist/mask.js"></script>
+<script type="application/javascript" src="webjars/angular-ui-event/1.0.0/dist/event.js"></script>
+<script type="application/javascript" src="webjars/angular-ui-validate/1.2.2/dist/validate.js"></script>
+<script type="application/javascript" src="webjars/angular-ui-indeterminate/1.0.0/dist/indeterminate.js"></script>
+<script type="application/javascript" src="webjars/angular-ui-scrollpoint/2.1.0/dist/scrollpoint.js"></script>
+<script type="application/javascript" src="webjars/angular-ui-scroll/1.5.1/dist/ui-scroll.js"></script>
+<script type="application/javascript" src="webjars/angular-ui-uploader/1.1.1/dist/uploader.js"></script>
+<script type="application/javascript" src="webjars/angular-sanitize/1.5.8/angular-sanitize.js"></script>
+<script type="application/javascript" src="webjars/angular-resource/1.5.8/angular-resource.js"></script>
+<script type="application/javascript" src="webjars/angular-translate/2.13.0/dist/angular-translate.js"></script>
+<script type="application/javascript" src="webjars/angular-translate/2.13.0/dist/angular-translate-loader-url/angular-translate-loader-url.js"></script>
+<script type="application/javascript" src="webjars/angular-translate/2.13.0/dist/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+<script type="application/javascript" src="webjars/angular-translate/2.13.0/dist/angular-translate-storage-local/angular-translate-storage-local.js"></script>
+<script type="application/javascript" src="webjars/angular-translate/2.13.0/dist/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+<script type="application/javascript" src="webjars/oclazyload/1.0.9/dist/ocLazyLoad.js"></script>
+<script type="application/javascript" src="webjars/angular-ui-bootstrap/2.2.0/dist/ui-bootstrap.js"></script>
+<script type="application/javascript" src="webjars/angular-ui-bootstrap/2.2.0/dist/ui-bootstrap-tpls.js"></script>
+<script type="application/javascript" src="webjars/angular-loading-bar/0.9.0/src/loading-bar.js"></script>
+<script type="application/javascript" src="webjars/jquery.browser/0.0.8/dist/jquery.browser.js"></script>
+<script type="application/javascript" src="webjars/angular-dynamic-locale/0.1.32/dist/tmhDynamicLocale.js"></script>
+<script type="application/javascript" src="/js/app.js"></script>
+
+</body>
+</html>
